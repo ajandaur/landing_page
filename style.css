@@ -1,0 +1,67 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+* { 
+    margin: 0;  
+    padding: 0;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+.header { 
+  background-color: #ff8080;
+  padding: 1em 13em;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start
+}
+
+.left-logo { 
+  width: 160px;
+  height: 110px;
+  padding: 10px;
+  background-color: #85e085;
+  
+}
+
+.right-links {
+
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.card {
+  max-width: 200px;
+}
+
+.quote-section {
+
+}
+
+/* do not edit this footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+  background: #eee;
+}
